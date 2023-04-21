@@ -15,7 +15,7 @@ $(document).ready(function(){
 	
 	var data;
 	
-	$(".toggle-btn").click(function(){
+	$(".container").click(function(){
 		var firebaseRef = firebase.database().ref().child("data");
 		if(data == "1"){
 			firebaseRef.set("0");
