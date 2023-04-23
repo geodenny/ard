@@ -1,16 +1,15 @@
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCtxXqkte_-ZtvWnyMGJFPQ0oFmfCHBQxI",
-  authDomain: "project2-55c6b.firebaseapp.com",
-  databaseURL: "https://project2-55c6b-default-rtdb.firebaseio.com",
-  projectId: "project2-55c6b",
-  storageBucket: "project2-55c6b.appspot.com",
-  messagingSenderId: "772092113396",
-  appId: "1:772092113396:web:ffc8ed77770d206dde49a1"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
+    apiKey: "AIzaSyA9Te2A_WF37ekq4B03X0kfmL__5i8KuFc",
+    authDomain: "proj1-da9f6.firebaseapp.com",
+    databaseURL: "https://proj1-da9f6-default-rtdb.firebaseio.com",
+    projectId: "proj1-da9f6",
+    storageBucket: "proj1-da9f6.appspot.com",
+    messagingSenderId: "440403215752",
+    appId: "1:440403215752:web:5ec68668e406d44174e63d"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
 $(document).ready(function(){
 	
