@@ -13,10 +13,7 @@ const firebaseConfig = {
 
 $(document).ready(function(){
 	
-	const container = document.querySelector('.container')
-container.addEventListener('animationend', () => {
-  container.classList.remove('active');
-});
+	
 	var data;
 	
 	$(".pp").click(function(){
